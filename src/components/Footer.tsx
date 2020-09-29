@@ -21,8 +21,8 @@ export default function Footer () {
         <a href="https://karibedrinks.netlify.app/">karibedrinks.netlify.app</a>
         <h1>Karibe Drink's</h1>
         <h3>Since 2020</h3>
-        <h6>Website criado e desenvolvido por <a href="https://rodrigowebdev.com.br">Rodrigo Cruz Candido</a></h6>
-        <a href="https://rodrigowebedv.com.br">rodrigowebdev.com.br</a>  
+        <h6>Website criado e desenvolvido por <a href="https://rodrigowebdev.com.br/">Rodrigo Cruz Candido</a></h6>
+        <a href="https://rodrigowebdev.com.br/" target="https://rodrigowebdev.com.br/">rodrigowebdev.com.br</a>  
       </Fragment>  
     </Container>
   )

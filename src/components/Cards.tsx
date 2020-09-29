@@ -25,11 +25,8 @@ export const Container = styled.div `
 
 `
 
-export const Fragment = styled.div`
+export const Fragment = styled.div `
   display: block;
-  /*margin: 0.25rem 0.15rem 4.25rem 0.15rem;
-  border: 2rem;
-  padding: 0.75rem; */
 
   @media(max-width: 1440px) {
     height: 475px;
