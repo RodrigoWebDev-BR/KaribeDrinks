@@ -9,13 +9,15 @@ import imgSeven from '../assets/img/07.jpg'
 import imgEight from '../assets/img/08.jpg'
 
 
-export const Container = styled.div `
+export const Container = styled.div ` 
   @media(min-width: 769px) {
     display: grid;
+    justify-content: space-around;
     grid-template-columns: repeat(3, 1fr);
   }
   @media(max-width: 768px) {
     display: grid;
+    justify-content: space-around;
     grid-template-columns: repeat(2, 1fr);
   }
   @media(max-width: 425px) {
