@@ -12,7 +12,6 @@ import imgEight from '../assets/img/08.jpg'
 export const Container = styled.div ` 
   @media(min-width: 769px) {
     display: grid;
-    justify-content: space-around;
     grid-template-columns: repeat(3, 1fr);
   }
   @media(max-width: 768px) {
@@ -28,9 +27,10 @@ export const Container = styled.div `
 `
 
 export const Fragment = styled.div `
-  display: block;
-
+  display: grid;
+  justify-content: space-around;
   @media(max-width: 1440px) {
+    grid-template-columns:repeat(3, 1fr);
     height: 475px;
     width: 375px;
     margin: 0.25rem 0.15rem 4.25rem 0.15rem;
@@ -38,6 +38,7 @@ export const Fragment = styled.div `
     padding: 0.75rem;
   }
   @media(max-width: 1024px) {
+    grid-template-columns:repeat(2, 1fr);
     height: 475px;
     width: 375px;
     margin: 0.25rem 0.15rem 4rem 0.15rem;
@@ -45,6 +46,7 @@ export const Fragment = styled.div `
     padding: 0.75rem;
   }
   @media(max-width: 768px) {
+    grid-template-columns:repeat(2, 1fr);
     height: 475px;
     width: 375px;
     margin: 0.15rem 0.1rem 3.75rem 0.1rem;
@@ -52,6 +54,7 @@ export const Fragment = styled.div `
     padding: 0.75rem;
   }
   @media(min-width: 425px) {
+    grid-template-columns: 1fr;
     height: 425px;
     width: 375px;
     margin: 0.15rem 0.1rem 3.5rem 0.1rem;
@@ -59,6 +62,7 @@ export const Fragment = styled.div `
     padding: 0.75rem;
   }
   @media(max-width: 375px) {
+    grid-template-columns: 1fr;
     height: 425px;
     width: 368px;
     margin: 0.1rem 0.1rem 3.25rem 0.1rem;
@@ -66,6 +70,7 @@ export const Fragment = styled.div `
     padding: 0.75rem;
   }
   @media(max-width: 320px) {
+    grid-template-columns: 1fr;
     height: 425px;
     width: 315px;
     margin: 0.1rem 0.1rem 3rem 0.1rem;
